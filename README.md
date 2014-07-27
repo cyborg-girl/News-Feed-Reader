@@ -10,6 +10,6 @@ This application has the following functionalities: <br>
 4. Users are able to search for news feed items within all items or the selected item/subscription from the news feed. <br>
 5. Users are able to see all the subscribed items in their feed. <br>
 
-This application is still under development. This is not an enterprise ready application, and is built for developmental purposes. 
+This application is still under development. This is not an enterprise ready application, and is built for developmental purposes. :neckbeard:
 
 
