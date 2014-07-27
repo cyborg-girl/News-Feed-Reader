@@ -1,6 +1,6 @@
 <b>News-Feed-Reader</b>
 ================
-A simple <b>News Feed reader</b> application built using <b>Visual Studio Express 2013 </b>, <b>C#</b>, <b>ASP .NET</b>, <b>Razor</b> and <b>MySQL</b>.
+A simple <b>News Feed reader</b> application built using <b>Visual Studio Express 2013 </b>, <b>C#</b>, <b>ASP .NET</b>, <b>Razor</b> and <b>MySQL</b>. :computer:
 
 
 This application has the following functionalities: <br>
