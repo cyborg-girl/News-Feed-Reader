@@ -1,0 +1,43 @@
+﻿@model IEnumerable<NewsReader.Models.NewsItem>
+
+@{
+    ViewBag.Title = "News Listing";
+}
+
+<h2>News Listing</h2>
+
+<p>
+    @Html.ActionLink("Update News", "Create") | @Html.ActionLink("Manage News Subscription", "Index", "Site")
+    @using (Html.BeginForm("Index", "News", FormMethod.Get))
+    {
+    <p>
+        News Feed: @Html.DropDownList("newsFeed", "All")
+        Search: @Html.TextBox("SearchString")
+        <input type="submit" value="Filter" />
+    </p>
+    }
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)  &raquo; Summary
+        </th>
+        <th>
+            Published &raquo; News Detail
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.ActionLink(item.Title, "Details", new { id = item.ID })
+        </td>
+        <td>
+            <a href=@Html.DisplayFor(modelItem => item.Links)>@Html.DisplayFor(modelIterm => item.PublishDate) </a>
+        </td>
+    </tr>
+}
+
+</table>
