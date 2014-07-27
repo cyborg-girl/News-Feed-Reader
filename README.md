@@ -1,9 +1,9 @@
-News-Feed-Reader
+<b>News-Feed-Reader</b>
 ================
-A simple News Feed reader application built using Visual Studio Express 2013, C#, ASP .NET, Razor and MySQL.
+A simple <b>News Feed reader</b> application built using Visual Studio Express 2013, C#, ASP .NET, Razor and MySQL.
 
 
-This application has the following functionalities:
+This application has the following functionalities: <br>
 1. It allows users to register for an account, log in and log out. <br>
 2. Users can subscribe to a news feed. <br>
 3. Users can view all items from all feeds in their own news feed. <br>
